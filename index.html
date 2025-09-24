@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal profile</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/1411e33b49.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/aman.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm Aman <span>Kumar</span><br>From Noida</h1>
+            </div>
+        </div>
+    </div>
+    <!-- <............about..........> -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/Snapchat-1880280285.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Motivated Software development with expertise in web and backend technologies,trained in MERN
+                        STACK development and strong interest in financial application. Skilled in problem solving,data
+                        handling and building efficient solutions for finance driven environment. Seeking an opportunity
+                        in a financial IT company to contribute to innovate Software products.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <!-- <p class="tab-links"onclick="opentab('Soft skills')">Soft Skills</p> -->
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Front-end</span><br>HTML, CSS, JavaScript , <br>React.js (Basics), Tailwind CSS
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><span>Back-end</span><br>Node.js (Basics), Express.js,<br> MongoDB(Basics)</li>
+                        </ul>
+                        <ul>
+                            <li><span>Web Development</span><br>Website development with expertise in <br> Web and
+                                backend
+                                technologies.</li>
+                        </ul>
+                        <ul>
+                            <li><span>React Developer</span><br>Galned hands-on experience in React.js </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>My/Experience</span><br>Website Development Training - <br> Skysys Engineering (6
+                                Months online) <br>From (Chandigarh)</li>
+                        </ul>
+                        <ul>
+                            <li><span>Web Development</span><br>Gained hands-on experience in <br>HTML, CSS, JavaScript,
+                                and
+                                React.js</li>
+                        </ul>
+                        <ul>
+                            <li><span>Web Development</span><br>Worked on small projects and <br> assignment to
+                                strengthen
+                                Front-end skills</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>High School</span><br>Kishan Mazdoor Inter College <br>UP BOARD (2019) </li>
+                        </ul>
+                        <ul>
+                            <li><span>Intermediate (PCM)- </span><br>Kishan Mazdoor Inter College <br>UP BOARD (2021)
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><span>B.C.A (Computer Application)-</span><br>D.A.V College From <br>Maa Shakumbhari
+                                University, Saharanpur (2025)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <.............services.........> -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">TECHNICAL SKILLS</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code fa-beat"></i>
+                    <h2>Front-end</h2>
+                    <p>HTML, CSS, and JavaScript, and I'm proficient in using frameworks like React. I recently
+                        developed a personal project, [Project Name], where I built a [brief description of project]
+                        using [mention specific framework/library], which helped me improve my skills in [specific
+                        skill]</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code-compare fa-beat"></i>
+                    <h2>Back-end</h2>
+                    <p>Describe a backend developer job as building and maintaining the server-side logic, databases,and
+                        infrastructure for applications, enabling communication between different software
+                        components.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios fa-beat"></i>
+                    <h2>Web Development</h2>
+                    <p>Web development should highlight your professional background,key skills in front-end
+                        (HTMl,CSS,JavaScript),back-end (NOde.js,Pythin),and full-stack development,along with experience
+                        in framework like React and experience with tools like Git/GitHub.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------protfolio----------->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/htmlwork.jpg" alt="">
+                    <div class="layer">
+                        <h3>Html Work</h3>
+                        <p>HTML, HyperText Markup Language, is the standard markup language used to create and
+                            structure content on the World Wide Web. It serves as the foundational language for all web
+                            pages and applications.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/csswork.png" alt="">
+                    <div class="layer">
+                        <h3>CSS Work</h3>
+                        <p>CSS, Cascading Style Sheets, is a stylesheet language used to describe the presentation of
+                            a web page written in HTML or XML. It allows web developers to control the visual styling of
+                            web content, including colors, fonts, layout, spacing, and other design elements.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/Remote-React-Developer-Jobs.webp" alt="">
+                    <div class="layer">
+                        <h3>JavaScript Work</h3>
+                        <p>JavaScript is a high-level, interpreted programming language primarily known for enabling
+                            interactive and dynamic content on websites. It is one of the core technologies of the World
+                            Wide Web, alongside HTML and CSS.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a class="btn" href="#">See more</a>
+        </div>
+    </div>
+
+    <!-------contact----------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>nitinkumarji0970@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8126937421</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-telegram"></i></a>
+                        <a href=""><i class="fa-brands fa-snapchat"></i></a>
+                    </div>
+                    <a class="btn btn2" href="img/Amna Mern stack resume.pdf" download>Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="email" name="email" placeholder="Enter Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Enter Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copywrite">It's mode on ower on </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add('active-tab')
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0"
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
